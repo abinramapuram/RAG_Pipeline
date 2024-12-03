@@ -1,4 +1,4 @@
-# ------------------------ RAG_Pipeline --------------------------
+# RAG Pipeline
 
 
 ## Contents
@@ -15,32 +15,32 @@
 - **RAG_Pipeline.docx**: RAG pipeline architecture details.
 
 
-Setup Instructions
+**Setup Instructions**
  
 	- Install Required Libraries using the requirements.txt file:
 		pip install -r requirements.txt
 	- Prepare the PDF
 		Place the PDF file (ConceptsofBiology-WEB.pdf) in the same directory as the script.
 
-Run the implementation code
+**Run the implementation code**
 
 	Update the user query in 'query' variable.
 	Run : python rag_pipeline.py
 
-Run the testing code
+**Run the testing code**
 
 	Update the test data filename in 'file_path' variable.
 	Run : python rag_pipeline_testing.py
 
 
-Run the streamlit app
+**Run the streamlit app**
 
 	streamlit run rag_pipeline_streamlit.py
 	
 	Then open the app in your browser (http://localhost:8501).
 
 
-Run as docker
+**Run as docker**
 
 	Navigate to the project directory
 		cd rag-app
@@ -54,7 +54,7 @@ Run as docker
 	The app will be available at http://localhost:8501.
 
 
-Run the Fastapi application
+**Run the Fastapi application**
 
 	Execute the script:
 		python rag_pipeline_fastapi.py
