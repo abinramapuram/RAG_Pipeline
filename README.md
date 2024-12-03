@@ -1,19 +1,18 @@
-# RAG_Pipeline
-
-Contents------------------------------------------
+# ---------------------------------------- RAG_Pipeline -----------------------------------------------
 
 
-ConceptsofBiology-WEB.pdf  -  Input pdf
-requirements.txt           -  python libraries required
-rag_pipeline.py            -  RAG pipeline implementation code with single query
-rag_pipeline_testing.py    -  RAG pipeline testing code using a set of test queries in csv file
-Test_data.csv              -  Test queries and their expected answers
-Test_data_with_outputs.csv -  Test queries and their outputs from RAG pipeline
-rag_pipeline_fastapi.py    -  Implementation using FastAPI
-rag_pipeline_streamlit.py  -  Implementation with streamlit frontend
-rag-app                    -  Docker implementation files
-RAG_Pipeline.docx          -  RAG pipeline architecture details
+## Contents
 
+- **ConceptsofBiology-WEB.pdf**: Input PDF.
+- **requirements.txt**: Python libraries required.
+- **rag_pipeline.py**: RAG pipeline implementation code with single query.
+- **rag_pipeline_testing.py**: RAG pipeline testing code using a set of test queries in a CSV file.
+- **Test_data.csv**: Test queries and their expected answers.
+- **Test_data_with_outputs.csv**: Test queries and their outputs from the RAG pipeline.
+- **rag_pipeline_fastapi.py**: Implementation using FastAPI.
+- **rag_pipeline_streamlit.py**: Implementation with a Streamlit frontend.
+- **rag-app**: Docker implementation files.
+- **RAG_Pipeline.docx**: RAG pipeline architecture details.
 
 
 Setup Instructions----------------------
